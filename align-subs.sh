@@ -55,6 +55,6 @@ for srt_file in "$@" ; do
     fi
 
     # Swap the new subtitles file with the original subtitles, keep the original subtitles with a suffix .backup
-    mv "$srt_file" "${srt_file%.*}.backup.srt"
+    mv "$srt_file" "${srt_file}.backup"
     mv "${srt_file%.*}.new.srt" "${new_srt}"
 done
