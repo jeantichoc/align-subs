@@ -1,5 +1,16 @@
 # align-subs
-bash script to align and rename subtitles using [ffs](https://github.com/smacke/ffsubsync)https://github.com/smacke/ffsubsync
+bash script to align and rename subtitles using [FFsubsync](https://github.com/smacke/ffsubsync)
+
+[FFsubsync](https://github.com/smacke/ffsubsync) is an awesome language-agnostic automatic synchronization of subtitles with video, so that
+subtitles are aligned to the correct starting point within the video.
+
+Turn this:                       |  Into this:
+:-------------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/smacke/ffsubsync/master/resources/img/tearing-me-apart-wrong.gif)  |  ![](https://raw.githubusercontent.com/smacke/ffsubsync/master/resources/img/tearing-me-apart-correct.gif)
+
+
+Visit https://github.com/smacke/ffsubsync to install it before using align-subs
+
 
 ## Usage
 
